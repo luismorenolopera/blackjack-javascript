@@ -81,7 +81,7 @@ input {
     justify-content: center;
 }
 
-[class^="carta-"]:hover {
+.carta:hover {
     background: url(../images/cartas-compressor.png);
 }
 
