@@ -1,0 +1,317 @@
+hgroup {
+    display: flex;
+}
+
+h2, h1 {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.carta {
+    margin: 5px;
+    background: url(../images/back.jpg);
+    width: 228px;
+    height: 320px;
+    border: 0.1px solid;
+}
+
+.boton {
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 2em;
+    background: #1a257c;
+    color: #eee;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.boton:nth-child(2) {
+    background-color: #115314;
+}
+
+.boton:nth-child(2):hover {
+    background-color: #1a801f;   
+}
+
+.boton:nth-child(2):active {
+    background-color: #3ad441;
+}
+
+#rojo {
+    background-color: #980707;
+}
+
+#rojo:hover {
+    background-color: #a01616;
+}
+
+#rojo:active {
+    background-color: #e50000;
+}
+
+input {
+    text-align: center;
+    font-size: 2em;
+}
+
+.boton:hover {
+    background: #2e3a9a;
+}
+
+.boton:active {
+    background: #3d4fe5;
+}
+
+.contenedor {
+    margin: auto;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+[class^="carta-"]:hover {
+    background: url(../images/cartas-compressor.png);
+}
+
+.a-corazon:hover {
+    background-position: 0 0;
+}
+
+.a-picas:hover {
+    background-position: 0 -310px;
+}
+
+.a-diamante:hover {
+    background-position: 0 -625px;
+}
+
+.a-trebol:hover {
+    background-position: 0 -940px;
+}
+
+/*dos*/
+
+.dos-corazon:hover {
+    background-position: -230px 0;
+}
+
+.dos-picas:hover {
+    background-position: -230px -310px;
+}
+
+.dos-diamante:hover {
+    background-position: -230px -625px;
+}
+
+.dos-trebol:hover {
+    background-position: -230px -940px;
+}
+
+/*tres*/
+.tres-corazon:hover {
+    background-position: -448px 0;
+}
+
+.tres-picas:hover {
+    background-position: -448px -310px;
+}
+
+.tres-diamante:hover {
+    background-position: -448px -625px;
+}
+
+.tres-trebol:hover {
+    background-position: -448px -940px;
+}
+
+/*cuatro*/
+
+.cuatro-corazon:hover {
+    background-position: -670px 0;
+}
+
+.cuatro-picas:hover {
+    background-position: -670px -310px;
+}
+
+.cuatro-diamante:hover {
+    background-position: -670px -625px;
+}
+
+.cuatro-trebol:hover {
+    background-position: -670px -940px;
+}
+
+/*cinco*/
+
+.cinco-corazon:hover {
+    background-position: -903px 0;
+}
+
+.cinco-picas:hover {
+    background-position: -903px -310px;
+}
+
+.cinco-diamante:hover {
+    background-position: -903px -625px;
+}
+
+.cinco-trebol:hover {
+    background-position: -903px -940px;
+}
+
+/*seis*/
+
+.seis-corazon:hover {
+    background-position: -1124px 0;
+}
+
+.seis-picas:hover {
+    background-position: -1124px -310px;
+}
+
+.seis-diamante:hover {
+    background-position: -1124px -625px;
+}
+
+.seis-trebol:hover {
+    background-position: -1124px -940px;
+}
+
+/*siete*/
+
+.siete-corazon:hover {
+    background-position: -1348px 0;
+}
+
+.siete-picas:hover {
+    background-position: -1348px -310px;
+}
+
+.siete-diamante:hover {
+    background-position: -1348px -625px;
+}
+
+.siete-trebol:hover {
+    background-position: -1348px -940px;
+}
+
+/*ocho*/
+
+.ocho-corazon:hover {
+    background-position: -1574px 0;
+}
+
+.ocho-picas:hover {
+    background-position: -1574px -310px;
+}
+
+.ocho-diamante:hover {
+    background-position: -1574px -625px;
+}
+
+.ocho-trebol:hover {
+    background-position: -1574px -940px;
+}
+
+/*nueve*/
+
+.nueve-corazon:hover {
+    background-position: -1800px 0;
+}
+
+.nueve-picas:hover {
+    background-position: -1800px -310px;
+}
+
+.nueve-diamante:hover {
+    background-position: -1800px -625px;
+}
+
+.nueve-trebol:hover {
+    background-position: -1800px -940px;
+}
+
+/*diez*/
+
+.diez-corazon:hover {
+    background-position: -2028px 0;
+}
+
+.diez-picas:hover {
+    background-position: -2028px -310px;
+}
+
+.diez-diamante:hover {
+    background-position: -2028px -625px;
+}
+
+.diez-trebol:hover {
+    background-position: -2028px -940px;
+}
+
+/*J*/
+
+.j-corazon:hover {
+    background-position: -2250px 0;
+}
+
+.j-picas:hover {
+    background-position: -2250px -310px;
+}
+
+.j-diamante:hover {
+    background-position: -2250px -625px;
+}
+
+.j-trebol:hover {
+    background-position: -2250px -940px;
+}
+
+/*Q*/
+
+.q-corazon:hover {
+    background-position: -2475px 0;
+}
+
+.q-picas:hover {
+    background-position: -2475px -310px;
+}
+
+.q-diamante:hover {
+    background-position: -2475px -625px;
+}
+
+.q-trebol:hover {
+    background-position: -2475px -940px;
+}
+
+/*K*/
+
+.k-corazon:hover {
+    background-position: -2700px 0;
+}
+
+.k-picas:hover {
+    background-position: -2700px -310px;
+}
+
+.k-diamante:hover {
+    background-position: -2700px -625px;
+}
+
+.k-trebol:hover {
+    background-position: -2700px -940px;
+}
