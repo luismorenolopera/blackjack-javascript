@@ -85,233 +85,234 @@ input {
     background: url(../images/cartas-compressor.png);
 }
 
-.a-corazon:hover {
+/*A-4*/
+.corazon-1:hover {
     background-position: 0 0;
 }
 
-.a-picas:hover {
+.picas-1:hover {
     background-position: 0 -310px;
 }
 
-.a-diamante:hover {
+.diamante-1:hover {
     background-position: 0 -625px;
 }
 
-.a-trebol:hover {
+.trebol-1:hover {
     background-position: 0 -940px;
 }
 
 /*dos*/
 
-.dos-corazon:hover {
+.co-5razon-2:hover {
     background-position: -230px 0;
 }
 
-.dos-picas:hover {
+.picas-2:hover {
     background-position: -230px -310px;
 }
 
-.dos-diamante:hover {
+.diamante-2:hover {
     background-position: -230px -625px;
 }
 
-.dos-trebol:hover {
+.trebol-2:hover {
     background-position: -230px -940px;
 }
 
 /*tres*/
-.tres-corazon:hover {
+.corazon-3:hover {
     background-position: -448px 0;
 }
 
-.tres-picas:hover {
+.picas-3:hover {
     background-position: -448px -310px;
 }
 
-.tres-diamante:hover {
+.diamante-3:hover {
     background-position: -448px -625px;
 }
 
-.tres-trebol:hover {
+.trebol-3:hover {
     background-position: -448px -940px;
 }
 
 /*cuatro*/
 
-.cuatro-corazon:hover {
+.corazon-4:hover {
     background-position: -670px 0;
 }
 
-.cuatro-picas:hover {
+.picas-4:hover {
     background-position: -670px -310px;
 }
 
-.cuatro-diamante:hover {
+.diamante-4:hover {
     background-position: -670px -625px;
 }
 
-.cuatro-trebol:hover {
+.trebol-4:hover {
     background-position: -670px -940px;
 }
 
 /*cinco*/
 
-.cinco-corazon:hover {
+.corazon-5:hover {
     background-position: -903px 0;
 }
 
-.cinco-picas:hover {
+.picas-5:hover {
     background-position: -903px -310px;
 }
 
-.cinco-diamante:hover {
+.diamante-5:hover {
     background-position: -903px -625px;
 }
 
-.cinco-trebol:hover {
+.trebol-5:hover {
     background-position: -903px -940px;
 }
 
 /*seis*/
 
-.seis-corazon:hover {
+.corazon-6:hover {
     background-position: -1124px 0;
 }
 
-.seis-picas:hover {
+.picas-6:hover {
     background-position: -1124px -310px;
 }
 
-.seis-diamante:hover {
+.diamante-6:hover {
     background-position: -1124px -625px;
 }
 
-.seis-trebol:hover {
+.trebol-6:hover {
     background-position: -1124px -940px;
 }
 
 /*siete*/
 
-.siete-corazon:hover {
+.corazon-7:hover {
     background-position: -1348px 0;
 }
 
-.siete-picas:hover {
+.picas-7:hover {
     background-position: -1348px -310px;
 }
 
-.siete-diamante:hover {
+.diamante-7:hover {
     background-position: -1348px -625px;
 }
 
-.siete-trebol:hover {
+.trebol-7:hover {
     background-position: -1348px -940px;
 }
 
 /*ocho*/
 
-.ocho-corazon:hover {
+.corazon-8:hover {
     background-position: -1574px 0;
 }
 
-.ocho-picas:hover {
+.picas-8:hover {
     background-position: -1574px -310px;
 }
 
-.ocho-diamante:hover {
+.diamante-8:hover {
     background-position: -1574px -625px;
 }
 
-.ocho-trebol:hover {
+.trebol-8:hover {
     background-position: -1574px -940px;
 }
 
 /*nueve*/
 
-.nueve-corazon:hover {
+.corazon-9:hover {
     background-position: -1800px 0;
 }
 
-.nueve-picas:hover {
+.picas-9:hover {
     background-position: -1800px -310px;
 }
 
-.nueve-diamante:hover {
+.diamante-9:hover {
     background-position: -1800px -625px;
 }
 
-.nueve-trebol:hover {
+.trebol-9:hover {
     background-position: -1800px -940px;
 }
 
 /*diez*/
 
-.diez-corazon:hover {
+.corazon-10:hover {
     background-position: -2028px 0;
 }
 
-.diez-picas:hover {
+.picas-10:hover {
     background-position: -2028px -310px;
 }
 
-.diez-diamante:hover {
+.diamante-10:hover {
     background-position: -2028px -625px;
 }
 
-.diez-trebol:hover {
+.trebol-10:hover {
     background-position: -2028px -940px;
 }
 
 /*J*/
 
-.j-corazon:hover {
+.corazon-11:hover {
     background-position: -2250px 0;
 }
 
-.j-picas:hover {
+.picas-11:hover {
     background-position: -2250px -310px;
 }
 
-.j-diamante:hover {
+.diamante-11:hover {
     background-position: -2250px -625px;
 }
 
-.j-trebol:hover {
+.trebol-11:hover {
     background-position: -2250px -940px;
 }
 
 /*Q*/
 
-.q-corazon:hover {
+.corazon-12:hover {
     background-position: -2475px 0;
 }
 
-.q-picas:hover {
+.picas-12:hover {
     background-position: -2475px -310px;
 }
 
-.q-diamante:hover {
+.diamante-12:hover {
     background-position: -2475px -625px;
 }
 
-.q-trebol:hover {
+.trebol-12:hover {
     background-position: -2475px -940px;
 }
 
 /*K*/
 
-.k-corazon:hover {
+.corazon-13:hover {
     background-position: -2700px 0;
 }
 
-.k-picas:hover {
+.picas-13:hover {
     background-position: -2700px -310px;
 }
 
-.k-diamante:hover {
+.diamante-13:hover {
     background-position: -2700px -625px;
 }
 
-.k-trebol:hover {
+.trebol-13:hover {
     background-position: -2700px -940px;
 }
