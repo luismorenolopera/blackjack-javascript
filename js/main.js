@@ -36,7 +36,8 @@ function sumar(jugador) {
     
     for (var i = 0; i < cartas.length ; i++) {
         valor = parseInt(cartas[i].id);
-        if (valor > 10 || valor == 1) {valor = 10;}
+        if (valor > 10) {valor = 10;}
+        if (valor == 1) { valor = 11;}
         suma += valor;
     }
     return suma;
@@ -52,14 +53,14 @@ function ganador() {
     var contenidoJugador2 = parseInt(nodoJugador2.textContent);
     
     
-    if( jugador1 > jugador2) {
-        contenidoJugador1 += 10;
-        contenidoJugador2 -= 10;
+    if( jugador2 > jugador1 && jugador2 <= 21) {
+        contenidoJugador1 -= 10;
+        contenidoJugador2 += 10;
     }
     
     else {
-        contenidoJugador1 -= 10;
-        contenidoJugador2 += 10;
+        contenidoJugador1 += 10;
+        contenidoJugador2 -= 10;
     }
     
     nodoJugador1.textContent = contenidoJugador1;
