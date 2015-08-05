@@ -36,11 +36,33 @@ function sumar(jugador) {
     
     for (var i = 0; i < cartas.length ; i++) {
         valor = parseInt(cartas[i].id);
-        if (valor > 10) {
-            valor = 10;
-        }
+        if (valor > 10 || valor == 1) {valor = 10;}
         suma += valor;
     }
-    
     return suma;
+}
+
+function ganador() {
+    var jugador1 = sumar(0);
+    var jugador2 = sumar(1);
+    var nodoJugador1 = document.getElementsByTagName("h2");
+    var nodoJugador2 = nodoJugador1[1];
+    nodoJugador1 = nodoJugador1[0];
+    var contenidoJugador1 = parseInt(nodoJugador1.textContent);
+    var contenidoJugador2 = parseInt(nodoJugador2.textContent);
+    
+    
+    if( jugador1 > jugador2) {
+        contenidoJugador1 += 10;
+        contenidoJugador2 -= 10;
+    }
+    
+    else {
+        contenidoJugador1 -= 10;
+        contenidoJugador2 += 10;
+    }
+    
+    nodoJugador1.textContent = contenidoJugador1;
+    nodoJugador2.textContent = contenidoJugador2;
+    
 }
