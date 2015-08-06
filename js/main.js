@@ -45,7 +45,15 @@ function sumar(jugador) {
 
 function ganador() {
     var apuesta = document.getElementsByTagName("input");
-    apuesta = parseInt(apuesta[1].value);
+    apuesta = apuesta[1].value;
+    if (apuesta == "") {
+        apuesta = 10;        
+    }
+    else {
+        apuesta = parseInt(apuesta);        
+    }
+    
+    
     var jugador1 = sumar(0);
     var jugador2 = sumar(1);
     var nodoJugador1 = document.getElementsByTagName("h2");
