@@ -44,6 +44,8 @@ function sumar(jugador) {
 }
 
 function ganador() {
+    var apuesta = document.getElementsByTagName("input");
+    apuesta = parseInt(apuesta[1].value);
     var jugador1 = sumar(0);
     var jugador2 = sumar(1);
     var nodoJugador1 = document.getElementsByTagName("h2");
@@ -53,13 +55,13 @@ function ganador() {
     var contenidoJugador2 = parseInt(nodoJugador2.textContent);
     
     if( jugador2 > jugador1 && jugador2 <= 21) {
-        contenidoJugador1 -= 10;
-        contenidoJugador2 += 10;
+        contenidoJugador1 -= apuesta;
+        contenidoJugador2 += apuesta;
     }
     
     else {
-        contenidoJugador1 += 10;
-        contenidoJugador2 -= 10;
+        contenidoJugador1 += apuesta;
+        contenidoJugador2 -= apuesta;
     }
     
     nodoJugador1.textContent = contenidoJugador1;
