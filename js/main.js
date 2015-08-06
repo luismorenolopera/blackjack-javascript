@@ -52,7 +52,6 @@ function ganador() {
     var contenidoJugador1 = parseInt(nodoJugador1.textContent);
     var contenidoJugador2 = parseInt(nodoJugador2.textContent);
     
-    
     if( jugador2 > jugador1 && jugador2 <= 21) {
         contenidoJugador1 -= 10;
         contenidoJugador2 += 10;
@@ -66,4 +65,12 @@ function ganador() {
     nodoJugador1.textContent = contenidoJugador1;
     nodoJugador2.textContent = contenidoJugador2;
     
+}
+
+function borrarCartas() {
+    var cartas = document.getElementsByClassName("carta");
+    var tam = cartas.length;
+    for (var i = 0; i < tam; i++){
+        cartas[0].parentNode.removeChild(cartas[0]);        
+    }
 }
