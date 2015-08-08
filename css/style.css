@@ -18,6 +18,7 @@ h2, h1 {
 }
 
 .boton {
+    float: left;
     display: flex;
     text-align: center;
     flex-flow: column;
